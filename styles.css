@@ -1,0 +1,274 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    position: fixed; 
+  	top: -15px;
+}
+
+.navbar-nav>li {
+    display: inline-block;
+    padding: 10px;
+    font-family: monospace;
+
+
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    background: transparent none repeat scroll 0 0;
+    color: #fff ;
+    font-size: 20px;
+    padding: 15px 150px;
+    text-decoration: none;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+        background: #82fabe;
+    }
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.container {
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.li1{
+	position: absolute;
+	top: 8px;
+	left: 80px;
+}
+
+.li2{
+	position: absolute;
+	top: 8px;
+	left: 400px;
+}
+
+.li3{
+	position: absolute;
+	top: 8px;
+	left: 700px;
+}
+
+.li4{
+	position: absolute;
+	top: 8px;
+	left: 1050px;
+}
+
+.firstparallax  h1 {
+  color: #e8b24f;
+  position: absolute;
+  font-size: 70px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #000;
+  text-align: center;
+  top: 6%;
+  font-family: monospace;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.firstparallax h2 {
+  color: #fff;
+  position: absolute;
+  text-shadow: 1px 1px #333;
+  text-align: center;
+  top: 19%;
+  font-family: monospace;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+.header-content img{
+    width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+  @media only screen and (max-width: 1024px) {
+  header,
+  section#services-area,
+  section#contact-area {
+  background-attachment: scroll;
+  }
+}
+
+.second1{
+	margin-left: 175px;
+	margin-top: 40px;
+	background-color: #f5ecd0;
+	width: 30%;
+	height: 480px;
+	max-width: 360px;
+}
+.second2{
+	margin-left: 587px;
+	margin-top: -479px;
+	background-color: #f5ecd0;
+	width: 100%;
+	height: 480px;
+	max-width: 360px;
+}
+.second3{
+	margin-left: 1000px;
+	background-color: #f5ecd0;
+	margin-top: -479px;
+	width: 100%;
+	height: 480px;
+	max-width: 360px;
+}
+
+.second1 img{
+	width:100%;
+	height:44%;
+}
+.second2 img{
+	width:100%;
+	height:44%;
+}
+.second3 img{
+	width:100%;
+	height:44%;
+}
+
+
+.secondheading{
+	color: green;
+	font-family: monospace;
+	text-align: center;
+}
+
+.secondpara{
+	text-align: center;
+	font-family: monospace;
+	font-size: 13px;
+}
+
+.secondbutton{
+	text-align: center;
+	margin-left: 120px; 
+	background-color: #1fd14f;
+	border-radius: 15px;
+	width: 100px;
+	height: 40px;
+	font-family: monospace;
+	font-style: italic;
+}
+
+.firstparallax{
+	background-image: url("img/first.jpg");
+	padding: 200px;
+	height: 300px;
+	background-attachment: fixed;
+}
+
+.history{
+	background-image: url("img/Histry.jpg");
+	padding: 100px;
+	height: 100px;
+	margin-top: 50px;
+	background-attachment: fixed;
+}
+
+.history h1{
+  color: #fff;
+  font-size: 70px;
+  text-transform: uppercase;
+  margin-top: -10px;
+  text-shadow: 2px 2px #000;
+  text-align: center;
+  font-family: monospace;
+  
+}
+
+.third1{
+	margin-left: 175px;
+	margin-top: 20px;
+	background-color: #f5ecd0;
+	width: 30%;
+	height: 480px;
+	max-width: 360px;
+}
+.third2{
+	margin-left: 578px;
+	margin-top: -479px;
+	background-color: #f5ecd0;
+	width: 100%;
+	height: 480px;
+	max-width: 360px;
+}
+.third3{
+	margin-left: 1000px;
+	background-color: #f5ecd0;
+	margin-top: -479px;
+	width: 100%;
+	height: 480px;
+	max-width: 360px;
+}
+
+.third1 img{
+	width:100%;
+	height:44%;
+}
+.third2 img{
+	width:100%;
+	height:44%;
+}
+.third3 img{
+	width:100%;
+	height:44%;
+}
+
+.details{
+	margin-top: 20px;
+	background-image: url("img/input.jpg");
+	padding: 100px;
+	height: 300px;
+	background-attachment: fixed;
+}
+.details h1{
+	font-family: monospace;
+	font-size: 35px;
+	color: #fff;
+	margin-left: 540px;
+	margin-top: -30px;
+}
+
+form{
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+	margin-left: 500px;
+}
+
+input{
+	opacity: 0.45;
+	border: 5px;
+	margin-left: 100px;
+	height: 20px;
+}
+
+.submit{
+	width: 130px;
+	height: 30px;
+	font-family: monospace;
+	opacity: .9;
+}
+
+.end{
+	text-align: center;
+	font-family: monospace;
+	font-size: 25px;
+	font-style: italic;
+}
